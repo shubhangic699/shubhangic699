@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        .left {
+            float: left;
+            width: 25%;
+            height: 500px;
+            background-image: linear-gradient(lightblue);
+            background-color: rgb(61, 61, 184);
+            border-radius: 25px;
+            margin-left: 25%;
+            transform: rotateZ(356deg);
+            position: absolute;
+            z-index: 1;
+
+        }
+
+        .right {
+            float: right;
+            width: 25%;
+            height: 500px;
+            background-color: white;
+            border-radius: 25px;
+            text-align: center;
+            margin-right: 25%;
+            margin-top: 10px;
+            transform: rotateZ(7deg);
+        }
+
+        .shape {
+            height: 50px;
+            width: 100px;
+            margin-top: 150px;
+            margin-left: 70px;
+            border-radius: 10px 40px 5px 10px;
+         background-color:aqua; 
+         
+        }
+
+        button {
+            width: 200px;
+            height: 40px;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: grey;
+        }
+
+        .register {
+            padding-top: 50px;
+        }
+
+        input {
+            width: 200px;
+            height: 40px;
+            border-radius: 10px;
+        }
+
+        .a {
+            margin-top: 70px;
+            padding: 0px 20px 10px 10px;
+        }
+
+        .b {
+            margin-top: 10px;
+        }
+
+        .c {
+            margin-top: 10px;
+            background-color: rgb(179, 108, 247);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <div class="shape"></div>
+    </div>
+    <div class="right">
+        <div class="a">
+            <h1><b>Olors</b></h1>
+            <h3>Sign in to continue</h3>
+            <input type="email" placeholder="Email">
+            <input class="b" type="password" placeholder="password">
+            <button class="c"><b>Sign in</b></button>
+            <h3>Forget password?</h3>
+        </div>
+        <div class="register">
+            <p>Don't have any account?<a href="#" register></a></p>
+        </div>
+    </div>
+</body>
+
+</html>    
